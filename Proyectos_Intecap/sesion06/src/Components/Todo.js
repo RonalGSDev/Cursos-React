@@ -24,9 +24,9 @@ const Todo = () => {
         if (nuevaTarea.trim() !== "") {
             setTareas([...tareas, nuevaTarea]);
             setNuevaTarea("");
-            setError(""); // Limpiar el mensaje de error si se agrega la tarea
+            setError(""); 
         } else {
-            simularError(); // Mostrar el error si el campo está vacío
+            simularError(); 
         }
     };
 
